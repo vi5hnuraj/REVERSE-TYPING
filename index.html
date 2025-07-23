@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Typing Competition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video autoplay loop muted playsinline class="bg-video">
+        <source src="/Users/admin/Downloads/reverse_accuracy/bg1.mp4" type="video/mp4">
+        
+    </video>
+    
+    <div class="container">
+        <h1>Reverse Typing Competition</h1>
+        
+        <h2>Original Paragraph:</h2>
+        <p class="paragraph">
+            Creativity is a vital force in human progress, shaping societies and fueling advancements in various fields. From ancient civilizations to the modern digital age, creative minds have been the driving force behind groundbreaking discoveries and innovations. The ability to think outside the box, question existing norms, and experiment with new ideas has led to remarkable achievements in art, science, and technology. Many of history's greatest figures, from Leonardo da Vinci to Albert Einstein, have emphasized the importance of creativity in their work. As we move forward into an era of artificial intelligence and automation, fostering creativity remains crucial in solving complex problems and driving progress.        </p>
+
+        <h2>Type the paragraph in reverse (word-wise):</h2>
+        <textarea id="userInput" placeholder="Type the reversed paragraph here..."></textarea>
+        
+        <button onclick="checkTyping()">Submit</button>
+        
+        <p id="result"></p>
+        <p id="score"></p>
+        <p id="accuracy"></p>
+        <p id="timer">Time Left: 30:00</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
